@@ -17,8 +17,7 @@ class Solution {
             
         }
     }
-    Arrays.sort(arr1, k, n);
+    Arrays.sort(arr1, k, n);    
     return arr1;
-    }
-        
+    }      
 }

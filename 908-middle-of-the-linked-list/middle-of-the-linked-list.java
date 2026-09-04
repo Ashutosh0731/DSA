@@ -8,16 +8,5 @@ class Solution {
             fast = fast.next.next;
         }
         return slow;
-        // ListNode temp = head;
-        // int length = 0;
-        // while(temp != null){
-        //     temp = temp.next;
-        //     length++;
-        // }
-        // temp = head;
-        // for(int i = 0; i < length/2; i++){
-        //     temp = temp.next;
-        // }
-        // return temp;
     }
 }

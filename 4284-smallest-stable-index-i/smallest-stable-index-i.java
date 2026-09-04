@@ -9,12 +9,13 @@ class Solution {
             int min = Integer.MAX_VALUE;
             int val = nums[i];
             max  = Math.max(val, max);
-            
+
             for(int j = i; j < n; j++){
 
                 int m = nums[j];
                 min = Math.min(m, min); 
             }
+            System.out.print(min+" ");
             int diff = max - min;
             if(diff <= k){
                 ans = i;

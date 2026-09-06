@@ -13,7 +13,7 @@ class Solution {
             }
             sum += max;
         }
-        System.gc();
+        // System.gc();
         return sum;
     }
 }

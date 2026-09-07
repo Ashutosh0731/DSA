@@ -7,6 +7,7 @@ class Solution {
         for(int num : nums){
             if(freq[num]++ == 1) return num;
         }
+        System.gc();
         return -1;
 
         // Second Approach

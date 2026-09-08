@@ -16,7 +16,7 @@ class Solution {
         }
 
         prev.next = slow.next;
-
+        System.gc();
         return head;
        
        

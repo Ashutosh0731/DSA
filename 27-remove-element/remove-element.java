@@ -5,13 +5,13 @@ class Solution {
         int i = 0;
         int count = 0;
 
-        for (int j = 0; j < n; j++) { // fix 1: j=0 se start
+        for (int j = 0; j < n; j++) { 
             if (nums[j] != val) {
                 int temp = nums[i];
                 nums[i] = nums[j];
                 nums[j] = temp;
                 i++;
-                count = i; // ab har valid element pe update hota hai
+                count = i;
             }
         }
 

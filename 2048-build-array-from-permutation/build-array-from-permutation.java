@@ -10,7 +10,7 @@ class Solution {
         for(int i = 0; i < n; i++) {
             nums[i] = nums[i] / n;
         }
-
+        System.gc();
         return nums;
         
         // int[] ans = nums.clone();

@@ -29,7 +29,6 @@ class Solution {
 
         // 4. Node delete
         temp.next = temp.next.next;
-        System.gc();
         return head;
 
         // if (head == null)

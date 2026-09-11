@@ -6,7 +6,6 @@ class Solution {
         for(int i = 0; i < nums.length; i++){
             target.add(index[i], nums[i]);
         }
-
         int[] ans = new int[target.size()];
         
         for(int i = 0; i < target.size(); i++){

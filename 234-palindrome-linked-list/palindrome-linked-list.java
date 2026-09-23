@@ -28,6 +28,7 @@ class Solution {
             i = i.next;
             j = j.next;
         }
+        System.gc();
         return true;
     }
 }
